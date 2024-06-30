@@ -2,47 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgba(245, 151, 37, 0.204);
 }
-
-/* body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #000;
-} */
 
 a {
   text-decoration: none;
   color: inherit;
 }
 
-ul,
-li {
-  list-style: none;
-}
-
-.login {
-  /* 수평정렬 */
-  width: 50vw;
-  margin: 0 auto;
-  text-align: center;
-  /* 수직정렬 */
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-
-  justify-content: center;
-  align-items: center;
-  /* height: 100vh; */
-  background-color: #fff;
-}
-
 button {
   text-align: left;
+}
+
+.page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100vh;
 }
