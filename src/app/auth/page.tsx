@@ -12,6 +12,8 @@ const AuthPage = (props: IAuthPageProps) => {
     searchParams: { type },
   } = props;
 
+  
+
   return <>{type === "sign-in" ? <SignInComponent /> : <SignUpComponent />}</>;
 };
 

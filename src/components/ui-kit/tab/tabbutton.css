@@ -1,0 +1,15 @@
+.a{
+    border:1px solid black;
+    width:25vw;
+    height:70px;
+    background:#2e60ff;
+    color:#ffffff;
+    text-align:center;
+    line-height:70px
+}
+
+.a:hover{
+    background-color: red;
+    color: black;
+}
+

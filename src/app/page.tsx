@@ -16,6 +16,7 @@ const AppPage = () => {
       <div
         style={{ display: "flex", flexDirection: "column", height: "100vh" }}
       >
+        {/*  */}
         <div
           style={{
             display: "flex",
@@ -28,8 +29,9 @@ const AppPage = () => {
             <Link href="http://localhost:3000">이윤주의 SNS</Link>
           </h1>
         </div>
+        {/*  */}
         <div style={{ flex: 1 }}></div>
-
+        {/*  */}
         <div
           style={{
             display: "flex",
@@ -52,6 +54,7 @@ const AppPage = () => {
             />
           </div>
         </div>
+        {/*  */}
       </div>
     </>
   );

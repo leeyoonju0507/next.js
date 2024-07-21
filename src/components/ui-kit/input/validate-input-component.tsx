@@ -19,6 +19,7 @@ const ValidateInputComponent = (props: {
     props;
 
   const [isValueValid, setIsValueValid] = useState<boolean>(false);
+  
   const onChangeValue = (e: ChangeEvent<HTMLInputElement>) => {
     if (validCondition(e.target.value)) {
       setIsValueValid(true);
