@@ -3,7 +3,7 @@ import React from "react";
 import  "./tabbutton.css"
 
 const TabButtonComponent = (props:{text:string, path?:string,classnames?:any}) => {
-  const {text, path, classnames=""} = props; 
+  const {text, path} = props; 
   const router = useRouter();
 
   const link = (path: string | undefined) => {
@@ -15,7 +15,7 @@ const TabButtonComponent = (props:{text:string, path?:string,classnames?:any}) =
   return (
   <div 
     onClick={() => link(path)}
-    className={`a ${classnames}`}
+    className={`a`}
     >
       {text}
   </div>
